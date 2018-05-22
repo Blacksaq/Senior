@@ -5,7 +5,7 @@
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 35px;
   text-decoration: none;
@@ -13,18 +13,18 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #0288d1;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #48A4ED;
   color: white;
 }
 
 
 .first {
-	height :65vh; 
+	height: 110vh; 
 	width: 100vw;
 	background-color: #1D2F5F;	
 	display: flex;
@@ -35,15 +35,19 @@
 
 .second {
 	width: 50vw;
-	height: 50vh; 
+	height: 95vh; 
 	background-color: #0288d1;
 	
 }
 
 .third {
 	background-color: #1D2F5F;
-	height: 100vh;
+	height: 200vh;
 	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;	
+	justify-content: center;
 	
 }
 
@@ -54,7 +58,7 @@ body {
 }
 
 .updates {
-	background-color: #0288d1;
+	background-color:#F21817;
 	border: 1px solid white; /* Creates that kind of a curve in the div */
 	border-radius: 5%;
 	width: 75vw;
@@ -62,5 +66,60 @@ body {
 	color: #FEFEEF; 
 	justify-content: center; 
 	align-items: center;
+	padding: 5vh;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.date {
+	border: solid 7px #1d2b5b;
+    color: #1d2b5b;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin: auto;
+    margin-left: 20px;
+    width: 60px;
 	
 }
+
+.span {
+	margin-top: 5px;
+    margin-bottom: 0;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 0.625rem;
+	
+}
+
+.strong {
+	margin-bottom: 6px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 0.83;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #1d2b5b;
+    font-size: 1.875rem;
+}
+
+a {
+	color: black;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
