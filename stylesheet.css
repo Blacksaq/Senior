@@ -29,7 +29,10 @@
 	background-color: #1D2F5F;	
 	display: flex;
 	justify-content: center; 
-	align-items: center; 	
+	align-items: center; 
+	background-image: url("flag.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	
 }
 
@@ -37,7 +40,6 @@
 	width: 50vw;
 	height: 95vh; 
 	background-color: #0288d1;
-	
 }
 
 .third {
@@ -122,4 +124,3 @@ li {
 ul {
 	list-style: none;
 }
-
