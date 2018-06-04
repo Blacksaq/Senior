@@ -9,7 +9,8 @@
   text-align: center;
   padding: 14px 35px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
+  
 }
 
 .topnav a:hover {
@@ -62,16 +63,15 @@ body {
 .updates {
 	background-color:#F21817;
 	border: 1px solid white; /* Creates that kind of a curve in the div */
-	border-radius: 5%;
+	border-radius: 5%; /* Percentage of Raduis*/
 	width: 75vw;
 	height: auto;  /* Height will increase whenever I add something new into it without me having to change anything */
 	color: #FEFEEF; 
-	justify-content: center; 
+	justify-content: center; /* Puts content in center of div*/
 	align-items: center;
 	padding: 5vh;
-	display: flex;
-	flex-wrap: wrap;
-
+	display: flex; /* Makes content side by side*/
+	flex-wrap: wrap; 
 }
 
 .date {
@@ -81,7 +81,6 @@ body {
     box-sizing: border-box;
     text-transform: uppercase;
     margin: auto;
-    margin-left: 20px;
     width: 60px;
 	
 }
@@ -123,4 +122,23 @@ li {
 
 ul {
 	list-style: none;
+}
+
+img {
+	width: 8vw;
+ 	height: 3vh;
+}
+
+@media screen and (max-width: 1450px){
+	.first {
+		height: 170vh;
+	}
+	
+	.second {
+		height: 110vh; 
+	}
+	
+	.topnav a {
+		font-size: 16px;
+	}
 }
